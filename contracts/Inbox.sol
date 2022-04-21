@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.7.0 <0.9.0;
+pragma solidity >=0.4.20 <0.9.0;
 
 // contract code will go here
 contract Inbox {
     string public message;
 
-    constructor(string memory initialMessage) {
+    constructor(string memory initialMessage) public {
         message = initialMessage;
     }
 
