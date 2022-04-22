@@ -13,4 +13,6 @@ To Deploy Contract on Rinkeby network --> node deploy.js
 
 How to get Infura API's endpoint --> https://infura.io/
 
+To Check deployed contract on Rinkeby network --> https://rinkeby.etherscan.io/
+
 
