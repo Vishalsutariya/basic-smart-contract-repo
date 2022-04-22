@@ -6,9 +6,9 @@ const { interface, bytecode } = require('./compile');
 const provider = new HDWalletProvider(
 
     //Mnemonic Key goes here
-    'spread lawn decade okay faint twist illness escape deny ramp ring letter',
+    'This is Dummy Key, You should add your respective Key',
     //Infura API's Rinkey Endpoints goes here
-    'https://rinkeby.infura.io/v3/18a6c04411544bdbaa8ed773dd17459c'
+    'Here you can give your Rinkeby Endpoints from Infura account'
 );
 
 const web3 = new Web3(provider);
