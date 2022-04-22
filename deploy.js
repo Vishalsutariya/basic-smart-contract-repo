@@ -4,8 +4,11 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-    'spread lawn decade okay faint twist illness escape deny ramp ring letter',
-    'https://rinkeby.infura.io/v3/18a6c04411544bdbaa8ed773dd17459c'
+
+    //Mnemonic Key goes here
+    'This is Dummy Key, You should add your respective Key',
+    //Infura API's Rinkey Endpoints goes here
+    'Here you can give your Rinkeby Endpoints from Infura account'
 );
 
 const web3 = new Web3(provider);
